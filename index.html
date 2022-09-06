@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MyWordle</title>
+   
+</head>
+<body>
+    <header>
+        <img src="./com.platzi.platzi.jpg" alt="logo-wordle">  
+        <h1>W O R D L E</h1>
+    </header>
+    <main>  
+        <section id="grid">
+        </section>
+        <section id="keyboard">
+        </section>
+        <div>
+        <button type="reset" onclick="reset()" class="button-reset">Reset</button>
+        </div>
+        <section class="paragraph">
+            <P> <strong>COMO JUGAR:</strong>   <br>
+                Tienes 5 intentos para adivinar la palabra secreta. <br>
+                Después de cada intento cada celda cambiará de color según el lugar donde esté. <br>
+                <strong>P</strong> l a t z i <br>
+                La letra <strong>P</strong>  está en la palabra y en el lugar correcto. <br>
+                Será de color <STRong>VERDE</STRong>. <br>
+                p<strong> L</strong> a t z i <br>
+                La letra <strong>L</strong> está en la palabra pero en el lugar incorrecto. <br>
+                Será de color <Strong>MARRÓN</Strong>. <br>
+                p l a t z i <br>
+                La letra <strong>C</strong>  no está en la palabra. <br>
+                Será de color <strong>GRIS</strong>. <br>
+                </P>
+        </section>
+    </main>
+    <footer>
+        <p>Hecho con 💚 por Sandra Córdoba</p>
+    </footer>
+    <script src="./index.js" defer></script>
+</body>
+</html>
