@@ -1,2 +1,3 @@
 # MyWordle
-PlatziChallenge Proyecto Clone Wordle 
+PlatziChallenge 
+Proyecto Clone Wordle 
